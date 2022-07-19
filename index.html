@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="container-fluid p-0" style="background-color:#8EC0E7 ;">
+  <div class="container-fluid p-0" style="background-color:#8EC0E7 ; " id="home">
     <nav class="navbar navbar-expand-sm  navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="img-fluid" src="./image/logo.png" alt="Logo"
@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-light navLink" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-light navLink" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light navLink" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light navLink" href="#">Services</a>
+              <a class="nav-link text-light navLink" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light navLink" href="#">Contact</a>
+              <a class="nav-link text-light navLink" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -77,7 +77,8 @@
     <div class="row m-5" id="about">
       <p class="h3 text-light">About</p>
       <div class="col-md-6">
-        <p class="text-light aboutP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis fugit corrupti
+        <p class="text-light aboutP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis fugit
+          corrupti
           atque obcaecati minus cupiditate, nihil, esse possimus facere sed, rem repellat tempora tenetur. Magnam
           assumenda accusamus hic voluptas!
           Sapiente in nam doloremque ducimus necessitatibus? Quibusdam laudantium laborum ducimus eligendi optio nihil,
@@ -96,7 +97,7 @@
         <img class="img-fluid" src="image/airport.jpg" alt="airport">
       </div>
     </div>
-    <div class="m-5 row" id="service">
+    <div class="m-5 row" id="services">
       <p class="col-sm-12 h3 text-center  text-light mt-3 mb-5">Services</p>
       <div class="col-sm-4 d-flex justify-content-center">
         <div class="card" style="max-width: 300px;">
@@ -107,7 +108,7 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
       </div>
@@ -118,7 +119,29 @@
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
+    <footer>
+      <div class="container-fluid row bg-primary text-light m-0 p-0" id="contact" style="min-height: 192px;">
+        <div class="col-12">
+          <p class="h3 text-light">Contact</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="h6">Varuj</p>
+          <p>Saburovka, Saratov Oblast,<br> Russia, 410532</p>
+        </div>
+        <div class="col-sm-4 ">
+          <p class="font-monospace">Tel :<span style="letter-spacing: 2px;">+79173064514</span>
+            <br> Email: varuj@gmail.com
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <ul>
+            <li style="list-style-image: url('image/whatsapp.png');">+79173064514</li>
+            <li style="list-style-image: url('image/viber.png');"> +79173064514</li>
+          </ul>
+        </div>
+      </div>
 
+    </footer>
   </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
