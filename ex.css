@@ -1,0 +1,53 @@
+body{
+    background-color: #8EC0E7;
+}
+/* .logo {
+    width: 223px;
+    height: 117px;
+}; */
+nav {
+    max-height: 100px;
+}
+.aboutP{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.cont {
+    background-color: #8EC0E7;
+
+}
+
+.togIcon {
+    border-color: none;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.ful {
+    width: 100%;
+    height: 500px;
+    background-color: darkgreen;
+}
+
+.navLink {
+    font-size: 20px;
+}
+
+@media screen and (max-width:575px) {
+    .logo {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logoDiv {
+        width: 150px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,53 +1,30 @@
-body{
-    background-color: #8EC0E7;
-}
-/* .logo {
-    width: 223px;
-    height: 117px;
-}; */
-nav {
-    max-height: 100px;
-}
-.aboutP{
-    font-family: 'Edu TAS Beginner', cursive;
+nav .logo {
+  max-height: 80px;
 }
 
-.cont {
-    background-color: #8EC0E7;
-
+.carous-in {
+  max-height: 600px;
 }
 
-.togIcon {
-    border-color: none;
-    border: none;
-    outline: none;
-    display: flex;
-    justify-content: flex-end;
-
+.min-header {
+  text-shadow: 2px 2px 8px #000000;
 }
 
-.ful {
+.cardDiv {
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 575px) {
+  .iframeDiv {
+    margin-top: 30px;
+    min-width: 100px;
+    min-height: 400px;
+  }
+  .iframeDiv iframe {
     width: 100%;
-    height: 500px;
-    background-color: darkgreen;
-}
-
-.navLink {
-    font-size: 20px;
-}
-
-@media screen and (max-width:575px) {
-    .logo {
-        margin: auto;
-        width: 100%;
-        height: 100%;
-    }
-
-    .logoDiv {
-        width: 150px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-}
+    height: 100%;
+  }
+  .airportImg {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

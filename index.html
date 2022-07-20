@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Hello, world!</title>
 </head>
 
@@ -19,8 +20,7 @@
   <div class="container-fluid p-0" style="background-color:#8EC0E7 ; " id="home">
     <nav class="navbar navbar-expand-sm  navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="./image/logo.png" alt="Logo"
-            style="max-height: 80px;"></a>
+        <a class="navbar-brand" href="#"><img class="img-fluid logo" src="./image/logo.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,15 +52,15 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner" style="max-height: 600px;">
-        <div class="carousel-item active" style="width: 100% !important;height: 100% !important; ">
-          <img src="image/carousel1.jpg" class="d-block w-100" alt="..." style="height: 100%;">
+      <div class="carousel-inner carous-in">
+        <div class="carousel-item active car-item">
+          <img src="image/carousel1.jpg" class="d-block w-100" alt="plain">
         </div>
-        <div class="carousel-item" style="width: 100% !important;height: 100% !important; ">
-          <img src="image/carousel2.jpg" class="d-block w-100" alt="..." style="height: 100%;">
+        <div class="carousel-item car-item">
+          <img src="image/carousel2.jpg" class="d-block w-100" alt="plain">
         </div>
-        <div class="carousel-item" style="width: 100% !important;height: 100% !important; ">
-          <img src="image/carousel3.jpg" class="d-block w-100" alt="..." style="height: 100%;">
+        <div class="carousel-item car-item">
+          <img src="image/carousel3.jpg" class="d-block w-100" alt="plain">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -75,9 +75,10 @@
       </button>
     </div>
     <div class="row m-5" id="about">
-      <p class="h3 text-light">About</p>
-      <div class="col-md-6">
-        <p class="text-light bg-primary aboutP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis fugit
+      <p class="h1 text-light min-header" >About</p>
+      <div class="col-md-6  p-0">
+        <p class="text-light text-center bg-primary aboutP border border-info rounded p-5 m-0" style="font-size: 18px; ;">Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis fugit
           corrupti
           atque obcaecati minus cupiditate, nihil, esse possimus facere sed, rem repellat tempora tenetur. Magnam
           assumenda accusamus hic voluptas!
@@ -90,17 +91,16 @@
           maiores corrupti sit delectus doloribus nulla tempora corporis tenetur. Aperiam, reprehenderit! Accusantium
           quod
           repellendus doloribus laudantium!
-          Nulla minima expedita ullam quia animi, cumque, fuga ea doloremque sit nisi rem non, ut odio pariatur. Unde ea
-          explicabo exercitationem quae quod adipisci. Dolorum sed laudantium dolore id illum.</p>
+          </p>
       </div>
       <div class="col-md-6">
-        <img class="img-fluid" src="image/airport.jpg" alt="airport">
+        <img class="img-fluid rounded airportImg" src="image/airport.jpg" alt="airport">
       </div>
     </div>
     <div class="m-5 row" id="services">
-      <p class="col-sm-12 h3 text-center  text-light mt-3 mb-5">Services</p>
+      <p class="col-sm-12 h3 text-center  text-light  mt-3 mb-5 min-header">Services</p>
       <div class="col-sm-4 d-flex justify-content-center">
-        <div class="card" style="max-width: 300px;">
+        <div class="card cardDiv">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/JAC_Refine_S4_01_China_2019-03-14.jpg/1200px-JAC_Refine_S4_01_China_2019-03-14.jpg"
             class="card-img-top" alt="card">
@@ -112,17 +112,17 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-8">
-        <iframe
+      <div class="col-sm-8 iframeDiv">
+        <iframe class="rounded"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1235.8977916532224!2d46.16974197286985!3d51.71848226313074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416b332f05364785%3A0xf2c65c09745d10fd!2sAirport%20Gagarin!5e0!3m2!1shy!2s!4v1658257150841!5m2!1shy!2s"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          width="100%" height="100%"  allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     <footer>
       <div class="container-fluid row bg-primary text-light m-0 p-0" id="contact" style="min-height: 192px;">
         <div class="col-12">
-          <p class="h3 text-light">Contact</p>
+          <p class="h1 text-light min-header">Contact</p>
         </div>
         <div class="col-sm-4">
           <p class="h6">Varuj</p>
